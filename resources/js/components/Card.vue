@@ -1,5 +1,5 @@
 <template>
-    <card class="overflow-hidden flex flex-row">
+    <card class="overflow-hidden grid grid-cols-8">
         <button
                 v-for="option in filter.options"
                 :key="option.value"
